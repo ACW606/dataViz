@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+<div id = "chart">	
+	<div id = "title">Visualizing Example</div>
+	<div id = "info">
+		This is a companion piece to the booa <a href='http://'>
+		Data Vizualization with Python and JavaScript</a>, in withich 
+		its construction is detailed. The data used was scraped from 
+		Wikipedia using the <a href=
+		"https://en.wikipedia.org/wikipedia
+		/list_of_Nobel_lauretes_by_country">
+		list of winners by country</a> as a starting point. 
+		The accompanying Github repo is <a href=
+		"http://Github.com/Kyrand/dataviz-with-python-and-js">
+	    here</a>
+	</div>	
+	<div id = "chart-holder">
+  		<div id = "nobel-bar"></div>
+  		<div id = "nobel-time"></div>
+  		<div id = "nobel-bio"></div>
+  	</div>
+</div>
+ 	<script src="https://d3js.org/d3.v5.min.js"></script>		
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/fourth-practice.css') }}" type="text/css" />
+   <script src="{{ url_for('static', filename='js/fourth-practice2.js') }}"></script>
+   <script src="{{ url_for('static', filename='js/fourth-practice3.js') }}"></script>
+   <script src="{{ url_for('static', filename='js/fourth-practice5.js') }}"></script>
+   <script src="{{ url_for('static', filename='js/iconPaths.js') }}"></script>
+</body>
+</html>
